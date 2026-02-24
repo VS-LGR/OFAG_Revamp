@@ -28,4 +28,10 @@ body {
   .container-wide {
     @apply mx-auto max-w-[1280px] px-4 sm:px-6 lg:px-8;
   }
+  .section-label {
+    @apply text-xs font-semibold uppercase tracking-widest text-secondary;
+  }
+  .heading-accent {
+    @apply relative inline-block after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-12 after:rounded-full after:bg-secondary;
+  }
 }

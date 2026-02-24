@@ -27,9 +27,15 @@
   },
   "home": {
     "hero": {
+      "label": "Impressão técnica",
       "title": "Technical Printing Solutions for Regulated Industries",
       "subtitle": "Impressão técnica de bulas e embalagens farmacêuticas. Mais de 57 anos no mercado e presença em mais de 80 países.",
       "cta": "Solicitar orçamento"
+    },
+    "stats": {
+      "years": "Anos no mercado",
+      "countries": "Países",
+      "pharma": "Dedicação à indústria farmacêutica"
     },
     "technology": {
       "title": "Tecnologia e processo",
@@ -44,12 +50,15 @@
     "industries": {
       "title": "Indústrias atendidas",
       "subtitle": "Especialistas em impressão para mercados regulados.",
+      "globalPresence": "Presença internacional com qualidade e conformidade.",
+      "viewClients": "Ver clientes e mercados",
       "pharmaceutical": { "title": "Farmacêutico", "desc": "Bulas, embalagens e rótulos para medicamentos." },
       "healthcare": { "title": "Saúde", "desc": "Materiais gráficos para dispositivos e produtos de saúde." },
       "regulated": { "title": "Indústrias reguladas", "desc": "Conformidade e rastreabilidade para setores exigentes." },
       "industrial": { "title": "Manufatura industrial", "desc": "Soluções técnicas para identificação e rotulagem industrial." }
     },
     "compliance": {
+      "label": "Qualidade",
       "title": "Compromisso com qualidade e regulamentação",
       "subtitle": "A OFAG garante o fornecimento através de certificado, com base em análises e amostragens pré-definidas com a área técnica de cada cliente.",
       "points": [

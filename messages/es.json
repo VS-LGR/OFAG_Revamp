@@ -27,9 +27,15 @@
   },
   "home": {
     "hero": {
+      "label": "Impresión técnica",
       "title": "Soluciones de impresión técnica para industrias reguladas",
       "subtitle": "Impresión técnica de prospectos y envases farmacéuticos. Más de 57 años en el mercado y presencia en más de 80 países.",
       "cta": "Solicitar presupuesto"
+    },
+    "stats": {
+      "years": "Años en el mercado",
+      "countries": "Países",
+      "pharma": "Dedicados a la industria farmacéutica"
     },
     "technology": {
       "title": "Tecnología y proceso",
@@ -44,12 +50,15 @@
     "industries": {
       "title": "Industrias atendidas",
       "subtitle": "Especialistas en impresión para mercados regulados.",
+      "globalPresence": "Presencia internacional con calidad y cumplimiento.",
+      "viewClients": "Ver clientes y mercados",
       "pharmaceutical": { "title": "Farmacéutico", "desc": "Prospectos, envases y etiquetas para medicamentos." },
       "healthcare": { "title": "Salud", "desc": "Materiales gráficos para dispositivos y productos de salud." },
       "regulated": { "title": "Industrias reguladas", "desc": "Cumplimiento y trazabilidad para sectores exigentes." },
       "industrial": { "title": "Fabricación industrial", "desc": "Soluciones técnicas para identificación y etiquetado industrial." }
     },
     "compliance": {
+      "label": "Calidad",
       "title": "Compromiso con calidad y regulación",
       "subtitle": "OFAG garantiza el suministro mediante certificado, con base en análisis y muestreos predefinidos con el área técnica de cada cliente.",
       "points": [

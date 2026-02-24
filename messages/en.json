@@ -27,9 +27,15 @@
   },
   "home": {
     "hero": {
+      "label": "Technical printing",
       "title": "Technical Printing Solutions for Regulated Industries",
       "subtitle": "Technical printing of leaflets and pharmaceutical packaging. Over 57 years in the market and presence in more than 80 countries.",
       "cta": "Request quote"
+    },
+    "stats": {
+      "years": "Years in the market",
+      "countries": "Countries",
+      "pharma": "Dedicated to the pharmaceutical industry"
     },
     "technology": {
       "title": "Technology & Process",
@@ -44,12 +50,15 @@
     "industries": {
       "title": "Industries Served",
       "subtitle": "Specialists in printing for regulated markets.",
+      "globalPresence": "International presence with quality and compliance.",
+      "viewClients": "View clients and markets",
       "pharmaceutical": { "title": "Pharmaceutical", "desc": "Leaflets, packaging and labels for medicines." },
       "healthcare": { "title": "Healthcare", "desc": "Graphic materials for devices and healthcare products." },
       "regulated": { "title": "Regulated industries", "desc": "Compliance and traceability for demanding sectors." },
       "industrial": { "title": "Industrial manufacturing", "desc": "Technical solutions for industrial identification and labelling." }
     },
     "compliance": {
+      "label": "Quality",
       "title": "Quality & Regulatory Commitment",
       "subtitle": "OFAG guarantees supply through certification, based on analyses and pre-defined sampling with each client's technical team.",
       "points": [

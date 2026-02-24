@@ -1,5 +1,6 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import Hero from "@/components/home/Hero";
+import StatsStrip from "@/components/home/StatsStrip";
 import TechnologyProcess from "@/components/home/TechnologyProcess";
 import IndustriesServed from "@/components/home/IndustriesServed";
 import QualityCompliance from "@/components/home/QualityCompliance";
@@ -27,6 +28,7 @@ export default async function HomePage({ params }: Props) {
   return (
     <>
       <Hero />
+      <StatsStrip />
       <TechnologyProcess />
       <IndustriesServed />
       <QualityCompliance />
