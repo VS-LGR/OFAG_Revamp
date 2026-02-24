@@ -47,7 +47,7 @@ export default function Header() {
             <Link
               key={key}
               href={pathByKey[key] ? `/${pathByKey[key]}` : "/"}
-              className="rounded-lg px-3 py-2 text-sm font-medium text-neutral-600 transition-colors hover:bg-neutral-100 hover:text-primary"
+              className="rounded-lg px-3 py-2 text-sm font-medium text-neutral-800 transition-colors hover:bg-neutral-100 hover:text-primary"
             >
               {t(key)}
             </Link>
@@ -63,7 +63,7 @@ export default function Header() {
           </div>
           <button
             type="button"
-            className="rounded-lg p-2.5 text-neutral-600 transition-colors hover:bg-neutral-100 hover:text-primary md:hidden"
+            className="rounded-lg p-2.5 text-neutral-800 transition-colors hover:bg-neutral-100 hover:text-primary md:hidden"
             onClick={() => setOpen(!open)}
             aria-expanded={open}
             aria-label={open ? "Close menu" : "Open menu"}

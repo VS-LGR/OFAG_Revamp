@@ -34,7 +34,7 @@ export default function LanguageSwitcher() {
           className={`rounded-full px-3 py-1.5 text-xs font-semibold transition-all ${
             locale === loc
               ? "bg-primary text-white shadow-button"
-              : "text-neutral-600 hover:bg-neutral-200/60 hover:text-primary"
+              : "text-neutral-800 hover:bg-neutral-200 hover:text-primary"
           }`}
           aria-current={locale === loc ? "true" : undefined}
         >

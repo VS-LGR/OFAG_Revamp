@@ -35,12 +35,12 @@ export default function Footer() {
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-4">
           <div className="lg:col-span-1">
             <p className="text-lg font-bold tracking-tight text-white">OFAG</p>
-            <p className="mt-3 max-w-xs text-sm leading-relaxed text-neutral-300">
+            <p className="mt-3 max-w-xs text-sm leading-relaxed text-neutral-200">
               {tFooter("qualityNote")}
             </p>
           </div>
           <div>
-            <h3 className="text-xs font-semibold uppercase tracking-wider text-neutral-400">
+            <h3 className="text-xs font-semibold uppercase tracking-wider text-neutral-300">
               Navegação
             </h3>
             <ul className="mt-4 flex flex-wrap gap-x-5 gap-y-1">
@@ -48,7 +48,7 @@ export default function Footer() {
                 <li key={key}>
                   <Link
                     href={pathByKey[key] ? `/${pathByKey[key]}` : "/"}
-                    className="text-sm text-neutral-300 transition-colors hover:text-secondary-light"
+                    className="text-sm text-neutral-200 transition-colors hover:text-white"
                   >
                     {t(key)}
                   </Link>
@@ -57,10 +57,10 @@ export default function Footer() {
             </ul>
           </div>
           <div>
-            <h3 className="text-xs font-semibold uppercase tracking-wider text-neutral-400">
+            <h3 className="text-xs font-semibold uppercase tracking-wider text-neutral-300">
               Contato
             </h3>
-            <ul className="mt-4 space-y-3 text-sm text-neutral-300">
+            <ul className="mt-4 space-y-3 text-sm text-neutral-200">
               <li className="flex items-start gap-3">
                 <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-secondary" />
                 <span>{tContact("address")}</span>
@@ -86,7 +86,7 @@ export default function Footer() {
             </ul>
           </div>
         </div>
-        <div className="mt-12 border-t border-primary-light pt-8 text-center text-sm text-neutral-500">
+        <div className="mt-12 border-t border-primary-light pt-8 text-center text-sm text-neutral-400">
           © {new Date().getFullYear()} OFAG — Osvaldo, Fernandes S.A. Artes Gráficas
         </div>
       </div>

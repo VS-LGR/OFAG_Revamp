@@ -26,7 +26,7 @@ export default async function CertificationsPage({ params }: Props) {
       <Section className="border-b border-neutral-200 bg-neutral-50">
         <div className="mx-auto max-w-3xl text-center">
           <h1 className="text-3xl font-bold text-primary md:text-4xl">{t("heading")}</h1>
-          <p className="mt-3 text-neutral-600">{t("subtitle")}</p>
+          <p className="mt-3 text-neutral-700">{t("subtitle")}</p>
         </div>
       </Section>
       <Section>
@@ -37,7 +37,7 @@ export default async function CertificationsPage({ params }: Props) {
             </div>
             <div>
               <h2 className="text-lg font-semibold text-primary">{t("iso.title")}</h2>
-              <p className="mt-1 text-neutral-600">{t("iso.desc")}</p>
+              <p className="mt-1 text-neutral-700">{t("iso.desc")}</p>
             </div>
           </article>
           <article className="flex gap-4 rounded-lg border border-neutral-200 p-6">
@@ -46,7 +46,7 @@ export default async function CertificationsPage({ params }: Props) {
             </div>
             <div>
               <h2 className="text-lg font-semibold text-primary">{t("gmp.title")}</h2>
-              <p className="mt-1 text-neutral-600">{t("gmp.desc")}</p>
+              <p className="mt-1 text-neutral-700">{t("gmp.desc")}</p>
             </div>
           </article>
         </div>

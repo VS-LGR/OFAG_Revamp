@@ -16,7 +16,7 @@ export default function CertificationsTeaser() {
           </div>
           <div>
             <h2 className="text-xl font-bold text-primary">{t("title")}</h2>
-            <p className="text-sm text-neutral-600">{t("subtitle")}</p>
+            <p className="text-sm text-neutral-700">{t("subtitle")}</p>
           </div>
         </div>
         <Button variant="outline" asChild>

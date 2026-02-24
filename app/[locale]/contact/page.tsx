@@ -28,14 +28,14 @@ export default async function ContactPage({ params }: Props) {
       <Section className="border-b border-neutral-200 bg-neutral-50">
         <div className="mx-auto max-w-3xl text-center">
           <h1 className="text-3xl font-bold text-primary md:text-4xl">{t("heading")}</h1>
-          <p className="mt-3 text-neutral-600">{t("subtitle")}</p>
+          <p className="mt-3 text-neutral-700">{t("subtitle")}</p>
         </div>
       </Section>
       <Section>
         <div className="mx-auto grid max-w-4xl gap-12 lg:grid-cols-2">
           <div>
             <h2 className="text-lg font-semibold text-primary">Contato</h2>
-            <ul className="mt-4 space-y-3 text-neutral-600">
+            <ul className="mt-4 space-y-3 text-neutral-700">
               <li className="flex items-start gap-3">
                 <MapPin className="h-5 w-5 shrink-0 text-secondary" />
                 <span>{tContact("address")}</span>

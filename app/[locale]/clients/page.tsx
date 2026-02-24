@@ -26,7 +26,7 @@ export default async function ClientsPage({ params }: Props) {
       <Section className="border-b border-neutral-200 bg-neutral-50">
         <div className="mx-auto max-w-3xl text-center">
           <h1 className="text-3xl font-bold text-primary md:text-4xl">{t("heading")}</h1>
-          <p className="mt-3 text-neutral-600">{t("subtitle")}</p>
+          <p className="mt-3 text-neutral-700">{t("subtitle")}</p>
         </div>
       </Section>
       <Section>

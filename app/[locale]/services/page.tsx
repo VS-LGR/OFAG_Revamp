@@ -29,7 +29,7 @@ export default async function ServicesPage({ params }: Props) {
       <Section className="border-b border-neutral-200 bg-neutral-50">
         <div className="mx-auto max-w-3xl text-center">
           <h1 className="text-3xl font-bold text-primary md:text-4xl">{t("heading")}</h1>
-          <p className="mt-3 text-neutral-600">{t("subtitle")}</p>
+          <p className="mt-3 text-neutral-700">{t("subtitle")}</p>
         </div>
       </Section>
       <Section>
@@ -47,7 +47,7 @@ export default async function ServicesPage({ params }: Props) {
                 <h2 className="mt-4 text-xl font-semibold text-primary">
                   {t(`${key}.title`)}
                 </h2>
-                <p className="mt-2 text-neutral-600">{t(`${key}.desc`)}</p>
+                <p className="mt-2 text-neutral-700">{t(`${key}.desc`)}</p>
               </article>
             );
           })}
