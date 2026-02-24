@@ -8,9 +8,12 @@ type ButtonProps = React.ButtonHTMLAttributes<HTMLButtonElement> & {
 };
 
 const variants = {
-  primary: "bg-secondary text-white hover:bg-secondary/90 border-transparent",
-  secondary: "bg-primary text-white hover:bg-primary/90 border-transparent",
-  outline: "border-neutral-300 bg-transparent text-neutral-700 hover:bg-neutral-50",
+  primary:
+    "bg-secondary text-white shadow-button border-transparent hover:bg-secondary-dark active:bg-secondary-dark",
+  secondary:
+    "bg-primary text-white shadow-button border-transparent hover:bg-primary-light active:bg-primary-dark",
+  outline:
+    "border border-neutral-300 bg-white text-neutral-700 hover:bg-neutral-50 hover:border-neutral-400",
 };
 
 export default function Button({
@@ -21,7 +24,7 @@ export default function Button({
   ...props
 }: ButtonProps) {
   const base =
-    "inline-flex items-center justify-center rounded-md border px-4 py-2 text-sm font-medium transition-colors focus-visible:outline focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50";
+    "inline-flex items-center justify-center rounded-lg border px-5 py-2.5 text-sm font-semibold transition-colors focus-visible:outline focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50";
 
   if (asChild && React.isValidElement(children)) {
     return React.cloneElement(children as React.ReactElement<{ className?: string }>, {

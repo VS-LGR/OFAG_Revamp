@@ -9,7 +9,7 @@ export default function QualityCompliance() {
     <Section id="compliance" className="bg-primary text-white">
       <div className="mx-auto max-w-3xl text-center">
         <h2 className="text-2xl font-bold md:text-3xl">{t("title")}</h2>
-        <p className="mt-3 text-neutral-200">{t("subtitle")}</p>
+        <p className="mt-3 text-primary-light/90">{t("subtitle")}</p>
       </div>
       <ul className="mx-auto mt-10 grid gap-3 sm:grid-cols-2 md:max-w-2xl">
         {(t.raw("points") as string[]).map((point) => (

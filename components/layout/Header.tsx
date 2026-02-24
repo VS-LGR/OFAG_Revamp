@@ -33,25 +33,28 @@ export default function Header() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 border-b border-neutral-200 bg-white">
-      <div className="container-wide flex h-16 items-center justify-between gap-4">
-        <Link href="/" className="flex items-center gap-2 font-semibold text-primary">
-          <span className="text-xl">OFAG</span>
+    <header className="sticky top-0 z-50 border-b border-neutral-200/80 bg-white/95 shadow-header backdrop-blur-sm">
+      <div className="container-wide flex h-16 min-h-[4.25rem] items-center justify-between gap-6 lg:h-[4.5rem]">
+        <Link
+          href="/"
+          className="flex items-center gap-2 text-lg font-bold tracking-tight text-primary transition-opacity hover:opacity-90"
+        >
+          <span>OFAG</span>
         </Link>
 
-        <nav className="hidden items-center gap-8 md:flex" aria-label="Main">
+        <nav className="hidden items-center gap-1 md:flex" aria-label="Main">
           {navKeys.map((key) => (
             <Link
               key={key}
               href={pathByKey[key] ? `/${pathByKey[key]}` : "/"}
-              className="text-sm font-medium text-neutral-700 hover:text-primary"
+              className="rounded-lg px-3 py-2 text-sm font-medium text-neutral-600 transition-colors hover:bg-neutral-100 hover:text-primary"
             >
               {t(key)}
             </Link>
           ))}
         </nav>
 
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-3">
           <LanguageSwitcher />
           <div className="hidden md:block">
             <Button asChild variant="primary">
@@ -60,7 +63,7 @@ export default function Header() {
           </div>
           <button
             type="button"
-            className="rounded p-2 text-neutral-600 hover:bg-neutral-100 md:hidden"
+            className="rounded-lg p-2.5 text-neutral-600 transition-colors hover:bg-neutral-100 hover:text-primary md:hidden"
             onClick={() => setOpen(!open)}
             aria-expanded={open}
             aria-label={open ? "Close menu" : "Open menu"}
@@ -71,19 +74,19 @@ export default function Header() {
       </div>
 
       {open && (
-        <div className="border-t border-neutral-200 bg-white px-4 py-4 md:hidden">
-          <nav className="flex flex-col gap-2" aria-label="Main mobile">
+        <div className="border-t border-neutral-200 bg-neutral-50/80 px-4 py-4 md:hidden">
+          <nav className="flex flex-col gap-0.5" aria-label="Main mobile">
             {navKeys.map((key) => (
               <Link
                 key={key}
                 href={pathByKey[key] ? `/${pathByKey[key]}` : "/"}
-                className="rounded px-3 py-2 text-sm font-medium text-neutral-700 hover:bg-neutral-100"
+                className="rounded-lg px-3 py-2.5 text-sm font-medium text-neutral-700 transition-colors hover:bg-white hover:text-primary"
                 onClick={() => setOpen(false)}
               >
                 {t(key)}
               </Link>
             ))}
-            <div className="mt-2 pt-2 border-t border-neutral-200">
+            <div className="mt-3 border-t border-neutral-200 pt-3">
               <Button asChild variant="primary" className="w-full">
                 <Link href="/quote" onClick={() => setOpen(false)}>
                   {tCta("requestQuote")}

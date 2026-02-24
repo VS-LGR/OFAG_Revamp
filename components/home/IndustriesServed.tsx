@@ -20,9 +20,9 @@ export default function IndustriesServed() {
           return (
             <article
               key={key}
-              className="rounded-lg border border-neutral-200 bg-white p-6 shadow-sm transition-shadow hover:shadow-md"
+              className="rounded-card border border-neutral-200 bg-white p-6 shadow-card transition-shadow hover:shadow-card-hover"
             >
-              <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-secondary/10 text-secondary">
+              <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-secondary/10 text-secondary">
                 <Icon className="h-5 w-5" />
               </div>
               <h3 className="mt-3 font-semibold text-neutral-900">{t(`${key}.title`)}</h3>

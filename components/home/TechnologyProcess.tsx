@@ -19,7 +19,7 @@ export default function TechnologyProcess() {
             const Icon = icons[step - 1];
             return (
               <li key={step} className="relative flex flex-col items-center text-center">
-                <div className="flex h-12 w-12 items-center justify-center rounded-full bg-primary text-white">
+                <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-primary text-white shadow-card">
                   <Icon className="h-6 w-6" />
                 </div>
                 <span className="mt-2 text-sm font-semibold text-primary">

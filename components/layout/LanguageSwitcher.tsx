@@ -22,16 +22,19 @@ export default function LanguageSwitcher() {
   }
 
   return (
-    <nav aria-label="Language selection" className="flex items-center gap-1">
+    <nav
+      aria-label="Language selection"
+      className="flex items-center rounded-full border border-neutral-200 bg-neutral-50 p-0.5"
+    >
       {LOCALES.map((loc) => (
         <button
           key={loc}
           onClick={() => switchLocale(loc)}
           disabled={isPending}
-          className={`rounded px-2 py-1 text-sm font-medium transition-colors ${
+          className={`rounded-full px-3 py-1.5 text-xs font-semibold transition-all ${
             locale === loc
-              ? "bg-primary text-white"
-              : "text-neutral-600 hover:bg-neutral-100 hover:text-primary"
+              ? "bg-primary text-white shadow-button"
+              : "text-neutral-600 hover:bg-neutral-200/60 hover:text-primary"
           }`}
           aria-current={locale === loc ? "true" : undefined}
         >

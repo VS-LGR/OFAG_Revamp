@@ -9,8 +9,16 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        primary: "#0A1F44",
-        secondary: "#1F6F5C",
+        primary: {
+          DEFAULT: "#0e2a47",
+          light: "#153554",
+          dark: "#0a1e32",
+        },
+        secondary: {
+          DEFAULT: "#0d9488",
+          light: "#14b8a6",
+          dark: "#0f766e",
+        },
         neutral: {
           50: "#f8fafc",
           100: "#f1f5f9",
@@ -25,11 +33,21 @@ const config: Config = {
         },
       },
       fontFamily: {
-        sans: ["var(--font-geist-sans)", "system-ui", "sans-serif"],
-        mono: ["var(--font-geist-mono)", "monospace"],
+        sans: ["var(--font-sans)", "system-ui", "sans-serif"],
+        mono: ["var(--font-mono)", "monospace"],
       },
       maxWidth: {
         container: "1280px",
+      },
+      borderRadius: {
+        "layout": "0.75rem",
+        "card": "1rem",
+      },
+      boxShadow: {
+        "header": "0 1px 3px 0 rgb(0 0 0 / 0.06)",
+        "card": "0 1px 3px 0 rgb(0 0 0 / 0.05), 0 1px 2px -1px rgb(0 0 0 / 0.05)",
+        "card-hover": "0 4px 6px -1px rgb(0 0 0 / 0.07), 0 2px 4px -2px rgb(0 0 0 / 0.05)",
+        "button": "0 1px 2px 0 rgb(0 0 0 / 0.05)",
       },
     },
   },

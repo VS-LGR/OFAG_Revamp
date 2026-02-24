@@ -14,7 +14,7 @@ export default function Section({
   as: Component = "section",
 }: SectionProps) {
   return (
-    <Component id={id} className={cn("py-16 md:py-24", className)}>
+    <Component id={id} className={cn("py-20 md:py-28", className)}>
       <div className="container-wide">{children}</div>
     </Component>
   );

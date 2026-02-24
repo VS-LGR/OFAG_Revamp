@@ -13,7 +13,7 @@ export default function CtaBlock() {
         <p className="mt-3 text-white/90">{t("subtitle")}</p>
         <div className="mt-8">
           <Button variant="secondary" asChild>
-            <Link href="/quote" className="bg-white text-secondary hover:bg-white/90">
+            <Link href="/quote" className="bg-white !text-secondary hover:bg-white/95 hover:!text-secondary-dark">
               {t("cta")}
             </Link>
           </Button>
