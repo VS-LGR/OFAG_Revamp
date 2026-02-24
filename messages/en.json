@@ -1,0 +1,133 @@
+{
+  "common": {
+    "a11y": {
+      "skipToContent": "Skip to content"
+    },
+    "nav": {
+      "home": "Home",
+      "about": "About",
+      "services": "Services",
+      "certifications": "Certifications",
+      "clients": "Clients",
+      "contact": "Contact",
+      "quote": "Quote"
+    },
+    "cta": {
+      "requestQuote": "Request quote",
+      "learnMore": "Learn more"
+    },
+    "contact": {
+      "address": "Estrada da Aldeinha, 421 — Alphaville — Barueri — SP, Brazil",
+      "phone": "+55 11 4191-1311",
+      "email": "vendas@ofag.com.br"
+    },
+    "footer": {
+      "qualityNote": "Committed to quality and regulatory compliance."
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Technical Printing Solutions for Regulated Industries",
+      "subtitle": "Technical printing of leaflets and pharmaceutical packaging. Over 57 years in the market and presence in more than 80 countries.",
+      "cta": "Request quote"
+    },
+    "technology": {
+      "title": "Technology & Process",
+      "subtitle": "Validated production flow, quality control and traceability at every stage.",
+      "steps": {
+        "1": { "title": "Specification", "desc": "Technical definition with the client's team and pre-defined sampling." },
+        "2": { "title": "Production", "desc": "Printing in a controlled environment, following Good Manufacturing Practices (GMP)." },
+        "3": { "title": "Quality control", "desc": "Analysis and validation according to specification and certifications." },
+        "4": { "title": "Traceability", "desc": "Documentation and supply certificate for full compliance." }
+      }
+    },
+    "industries": {
+      "title": "Industries Served",
+      "subtitle": "Specialists in printing for regulated markets.",
+      "pharmaceutical": { "title": "Pharmaceutical", "desc": "Leaflets, packaging and labels for medicines." },
+      "healthcare": { "title": "Healthcare", "desc": "Graphic materials for devices and healthcare products." },
+      "regulated": { "title": "Regulated industries", "desc": "Compliance and traceability for demanding sectors." },
+      "industrial": { "title": "Industrial manufacturing", "desc": "Technical solutions for industrial identification and labelling." }
+    },
+    "compliance": {
+      "title": "Quality & Regulatory Commitment",
+      "subtitle": "OFAG guarantees supply through certification, based on analyses and pre-defined sampling with each client's technical team.",
+      "points": [
+        "Good Manufacturing Practices (GMP)",
+        "ISO 9000 Certification",
+        "Validation and quality control",
+        "Full traceability"
+      ]
+    },
+    "certificationsTeaser": {
+      "title": "Certifications",
+      "subtitle": "Learn about our certifications and commitment to quality.",
+      "cta": "View certifications"
+    },
+    "ctaBlock": {
+      "title": "Ready to work with OFAG?",
+      "subtitle": "Request a quote or contact our team.",
+      "cta": "Request quote"
+    }
+  },
+  "about": {
+    "title": "About",
+    "metaDescription": "OFAG — Technical Printing Solutions for Regulated Industries. Over 57 years in the printing market, dedicated to the pharmaceutical industry.",
+    "heading": "Technical Printing Solutions for Regulated Industries",
+    "intro": "Osvaldo, Fernandes S.A. Artes Gráficas (OFAG) has been in the printing market for over 57 years and has been dedicated exclusively to the pharmaceutical industry for over 40 years.",
+    "presence": "Our products are present in more than 80 countries.",
+    "differentiation": "Structure ready to meet the needs of regulated markets, with a focus on technical authority, industrial reliability and compliance."
+  },
+  "services": {
+    "title": "Services",
+    "metaDescription": "Printing of leaflets, labels, offset and flexography for regulated industries. OFAG.",
+    "heading": "Our services",
+    "subtitle": "Specialists in printing leaflets and pharmaceutical packaging.",
+    "labels": { "title": "Label and adhesive printing", "desc": "Solutions in labels and adhesives for primary and secondary packaging." },
+    "leaflets": { "title": "Leaflet printing", "desc": "Leaflets in compliance with regulatory and readability requirements." },
+    "offset": { "title": "Offset printing", "desc": "Offset printing for packaging and technical graphic materials." },
+    "flexo": { "title": "Flexographic printing", "desc": "Flexography for labels and packaging with high performance." }
+  },
+  "certifications": {
+    "title": "Certifications",
+    "metaDescription": "OFAG certifications: ISO 9000, GMP and commitment to quality and regulation.",
+    "heading": "Certifications",
+    "subtitle": "Commitment to quality and regulatory compliance.",
+    "iso": { "title": "ISO 9000", "desc": "Certified quality management system." },
+    "gmp": { "title": "Good Manufacturing Practices (GMP)", "desc": "Processes aligned with Good Manufacturing Practices." }
+  },
+  "clients": {
+    "title": "Clients",
+    "metaDescription": "OFAG serves pharmaceutical and regulated industries in more than 80 countries.",
+    "heading": "Clients and markets",
+    "subtitle": "We serve pharmaceutical, healthcare and regulated industries worldwide.",
+    "presence": "Presence in more than 80 countries."
+  },
+  "contact": {
+    "title": "Contact",
+    "metaDescription": "Contact OFAG. Estrada da Aldeinha, 421 — Barueri — SP, Brazil.",
+    "heading": "Contact",
+    "subtitle": "We are available to meet your needs.",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "company": "Company",
+      "message": "Message",
+      "send": "Send"
+    }
+  },
+  "quote": {
+    "title": "Quote",
+    "metaDescription": "Request a quote. OFAG — technical printing for regulated industries.",
+    "heading": "Request quote",
+    "subtitle": "Describe your needs and we will get back to you shortly.",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "company": "Company",
+      "product": "Product / type of printing",
+      "message": "Request details",
+      "send": "Submit request"
+    }
+  }
+}

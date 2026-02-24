@@ -1,0 +1,133 @@
+{
+  "common": {
+    "a11y": {
+      "skipToContent": "Pular para o conteúdo"
+    },
+    "nav": {
+      "home": "Início",
+      "about": "A OFAG",
+      "services": "Serviços",
+      "certifications": "Certificações",
+      "clients": "Clientes",
+      "contact": "Contato",
+      "quote": "Orçamento"
+    },
+    "cta": {
+      "requestQuote": "Solicitar orçamento",
+      "learnMore": "Saiba mais"
+    },
+    "contact": {
+      "address": "Estrada da Aldeinha, 421 — Alphaville — Barueri — SP",
+      "phone": "+55 11 4191-1311",
+      "email": "vendas@ofag.com.br"
+    },
+    "footer": {
+      "qualityNote": "Comprometidos com qualidade e conformidade regulatória."
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Technical Printing Solutions for Regulated Industries",
+      "subtitle": "Impressão técnica de bulas e embalagens farmacêuticas. Mais de 57 anos no mercado e presença em mais de 80 países.",
+      "cta": "Solicitar orçamento"
+    },
+    "technology": {
+      "title": "Tecnologia e processo",
+      "subtitle": "Fluxo produtivo validado, controle de qualidade e rastreabilidade em todas as etapas.",
+      "steps": {
+        "1": { "title": "Especificação", "desc": "Definição técnica com a área do cliente e amostragens pré-definidas." },
+        "2": { "title": "Produção", "desc": "Impressão em ambiente controlado, seguindo Boas Práticas de fabricação (GMP)." },
+        "3": { "title": "Controle de qualidade", "desc": "Análises e validação conforme especificação e certificações." },
+        "4": { "title": "Rastreabilidade", "desc": "Documentação e certificado de fornecimento para total conformidade." }
+      }
+    },
+    "industries": {
+      "title": "Indústrias atendidas",
+      "subtitle": "Especialistas em impressão para mercados regulados.",
+      "pharmaceutical": { "title": "Farmacêutico", "desc": "Bulas, embalagens e rótulos para medicamentos." },
+      "healthcare": { "title": "Saúde", "desc": "Materiais gráficos para dispositivos e produtos de saúde." },
+      "regulated": { "title": "Indústrias reguladas", "desc": "Conformidade e rastreabilidade para setores exigentes." },
+      "industrial": { "title": "Manufatura industrial", "desc": "Soluções técnicas para identificação e rotulagem industrial." }
+    },
+    "compliance": {
+      "title": "Compromisso com qualidade e regulamentação",
+      "subtitle": "A OFAG garante o fornecimento através de certificado, com base em análises e amostragens pré-definidas com a área técnica de cada cliente.",
+      "points": [
+        "Boas Práticas de fabricação (GMP)",
+        "Certificação ISO 9000",
+        "Validação e controle de qualidade",
+        "Rastreabilidade completa"
+      ]
+    },
+    "certificationsTeaser": {
+      "title": "Certificações",
+      "subtitle": "Conheça nossas certificações e compromisso com a qualidade.",
+      "cta": "Ver certificações"
+    },
+    "ctaBlock": {
+      "title": "Pronto para trabalhar com a OFAG?",
+      "subtitle": "Solicite um orçamento ou entre em contato com nossa equipe.",
+      "cta": "Solicitar orçamento"
+    }
+  },
+  "about": {
+    "title": "A OFAG",
+    "metaDescription": "OFAG — Technical Printing Solutions for Regulated Industries. Mais de 57 anos no mercado gráfico, dedicados à indústria farmacêutica.",
+    "heading": "Technical Printing Solutions for Regulated Industries",
+    "intro": "A Osvaldo, Fernandes S.A. Artes Gráficas (OFAG) está no mercado gráfico há mais de 57 anos e há mais de 40 anos dedica-se exclusivamente à indústria farmacêutica.",
+    "presence": "Nossos produtos estão presentes em mais de 80 países.",
+    "differentiation": "Estrutura preparada para atender as necessidades de mercados regulados, com foco em autoridade técnica, confiabilidade industrial e conformidade."
+  },
+  "services": {
+    "title": "Serviços",
+    "metaDescription": "Impressão de bulas, rótulos, offset e flexografia para indústrias reguladas. OFAG.",
+    "heading": "Nossos serviços",
+    "subtitle": "Especialistas na impressão de bulas e embalagens farmacêuticas.",
+    "labels": { "title": "Impressão de rótulos e adesivos", "desc": "Soluções em rótulos e adesivos para embalagens primárias e secundárias." },
+    "leaflets": { "title": "Impressão de bulas", "desc": "Bulas em conformidade com requisitos regulatórios e de legibilidade." },
+    "offset": { "title": "Impressão offset", "desc": "Impressão offset para embalagens e materiais gráficos técnicos." },
+    "flexo": { "title": "Impressão em flexografia", "desc": "Flexografia para rótulos e embalagens em alta performance." }
+  },
+  "certifications": {
+    "title": "Certificações",
+    "metaDescription": "Certificações OFAG: ISO 9000, GMP e compromisso com qualidade e regulamentação.",
+    "heading": "Certificações",
+    "subtitle": "Compromisso com qualidade e conformidade regulatória.",
+    "iso": { "title": "ISO 9000", "desc": "Sistema de gestão da qualidade certificado." },
+    "gmp": { "title": "Boas Práticas de fabricação (GMP)", "desc": "Processos alinhados às Good Manufacturing Practices." }
+  },
+  "clients": {
+    "title": "Clientes",
+    "metaDescription": "OFAG atende indústrias farmacêuticas e reguladas em mais de 80 países.",
+    "heading": "Clientes e mercados",
+    "subtitle": "Atendemos indústrias farmacêuticas, de saúde e mercados regulados em todo o mundo.",
+    "presence": "Presença em mais de 80 países."
+  },
+  "contact": {
+    "title": "Contato",
+    "metaDescription": "Entre em contato com a OFAG. Estrada da Aldeinha, 421 — Barueri — SP.",
+    "heading": "Contato",
+    "subtitle": "Estamos à disposição para atender sua demanda.",
+    "form": {
+      "name": "Nome",
+      "email": "E-mail",
+      "company": "Empresa",
+      "message": "Mensagem",
+      "send": "Enviar"
+    }
+  },
+  "quote": {
+    "title": "Orçamento",
+    "metaDescription": "Solicite um orçamento. OFAG — impressão técnica para indústrias reguladas.",
+    "heading": "Solicitar orçamento",
+    "subtitle": "Descreva sua necessidade e retornaremos em breve.",
+    "form": {
+      "name": "Nome",
+      "email": "E-mail",
+      "company": "Empresa",
+      "product": "Produto / tipo de impressão",
+      "message": "Detalhes da solicitação",
+      "send": "Enviar solicitação"
+    }
+  }
+}

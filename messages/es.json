@@ -1,0 +1,133 @@
+{
+  "common": {
+    "a11y": {
+      "skipToContent": "Saltar al contenido"
+    },
+    "nav": {
+      "home": "Inicio",
+      "about": "La empresa",
+      "services": "Servicios",
+      "certifications": "Certificaciones",
+      "clients": "Clientes",
+      "contact": "Contacto",
+      "quote": "Presupuesto"
+    },
+    "cta": {
+      "requestQuote": "Solicitar presupuesto",
+      "learnMore": "Saber más"
+    },
+    "contact": {
+      "address": "Estrada da Aldeinha, 421 — Alphaville — Barueri — SP, Brasil",
+      "phone": "+55 11 4191-1311",
+      "email": "vendas@ofag.com.br"
+    },
+    "footer": {
+      "qualityNote": "Comprometidos con la calidad y el cumplimiento normativo."
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Soluciones de impresión técnica para industrias reguladas",
+      "subtitle": "Impresión técnica de prospectos y envases farmacéuticos. Más de 57 años en el mercado y presencia en más de 80 países.",
+      "cta": "Solicitar presupuesto"
+    },
+    "technology": {
+      "title": "Tecnología y proceso",
+      "subtitle": "Flujo productivo validado, control de calidad y trazabilidad en todas las etapas.",
+      "steps": {
+        "1": { "title": "Especificación", "desc": "Definición técnica con el área del cliente y muestreos predefinidos." },
+        "2": { "title": "Producción", "desc": "Impresión en entorno controlado, siguiendo las Buenas Prácticas de fabricación (GMP)." },
+        "3": { "title": "Control de calidad", "desc": "Análisis y validación conforme a especificación y certificaciones." },
+        "4": { "title": "Trazabilidad", "desc": "Documentación y certificado de suministro para total conformidad." }
+      }
+    },
+    "industries": {
+      "title": "Industrias atendidas",
+      "subtitle": "Especialistas en impresión para mercados regulados.",
+      "pharmaceutical": { "title": "Farmacéutico", "desc": "Prospectos, envases y etiquetas para medicamentos." },
+      "healthcare": { "title": "Salud", "desc": "Materiales gráficos para dispositivos y productos de salud." },
+      "regulated": { "title": "Industrias reguladas", "desc": "Cumplimiento y trazabilidad para sectores exigentes." },
+      "industrial": { "title": "Fabricación industrial", "desc": "Soluciones técnicas para identificación y etiquetado industrial." }
+    },
+    "compliance": {
+      "title": "Compromiso con calidad y regulación",
+      "subtitle": "OFAG garantiza el suministro mediante certificado, con base en análisis y muestreos predefinidos con el área técnica de cada cliente.",
+      "points": [
+        "Buenas Prácticas de fabricación (GMP)",
+        "Certificación ISO 9000",
+        "Validación y control de calidad",
+        "Trazabilidad completa"
+      ]
+    },
+    "certificationsTeaser": {
+      "title": "Certificaciones",
+      "subtitle": "Conozca nuestras certificaciones y compromiso con la calidad.",
+      "cta": "Ver certificaciones"
+    },
+    "ctaBlock": {
+      "title": "¿Listo para trabajar con OFAG?",
+      "subtitle": "Solicite un presupuesto o póngase en contacto con nuestro equipo.",
+      "cta": "Solicitar presupuesto"
+    }
+  },
+  "about": {
+    "title": "La empresa",
+    "metaDescription": "OFAG — Soluciones de impresión técnica para industrias reguladas. Más de 57 años en el mercado gráfico, dedicados a la industria farmacéutica.",
+    "heading": "Soluciones de impresión técnica para industrias reguladas",
+    "intro": "Osvaldo, Fernandes S.A. Artes Gráficas (OFAG) está en el mercado gráfico desde hace más de 57 años y desde hace más de 40 años se dedica exclusivamente a la industria farmacéutica.",
+    "presence": "Nuestros productos están presentes en más de 80 países.",
+    "differentiation": "Estructura preparada para atender las necesidades de mercados regulados, con foco en autoridad técnica, confiabilidad industrial y cumplimiento."
+  },
+  "services": {
+    "title": "Servicios",
+    "metaDescription": "Impresión de prospectos, etiquetas, offset y flexografía para industrias reguladas. OFAG.",
+    "heading": "Nuestros servicios",
+    "subtitle": "Especialistas en la impresión de prospectos y envases farmacéuticos.",
+    "labels": { "title": "Impresión de etiquetas y adhesivos", "desc": "Soluciones en etiquetas y adhesivos para envases primarios y secundarios." },
+    "leaflets": { "title": "Impresión de prospectos", "desc": "Prospectos en conformidad con requisitos regulatorios y de legibilidad." },
+    "offset": { "title": "Impresión offset", "desc": "Impresión offset para envases y materiales gráficos técnicos." },
+    "flexo": { "title": "Impresión en flexografía", "desc": "Flexografía para etiquetas y envases de alto rendimiento." }
+  },
+  "certifications": {
+    "title": "Certificaciones",
+    "metaDescription": "Certificaciones OFAG: ISO 9000, GMP y compromiso con calidad y regulación.",
+    "heading": "Certificaciones",
+    "subtitle": "Compromiso con la calidad y el cumplimiento normativo.",
+    "iso": { "title": "ISO 9000", "desc": "Sistema de gestión de la calidad certificado." },
+    "gmp": { "title": "Buenas Prácticas de fabricación (GMP)", "desc": "Procesos alineados con las Good Manufacturing Practices." }
+  },
+  "clients": {
+    "title": "Clientes",
+    "metaDescription": "OFAG atiende a industrias farmacéuticas y reguladas en más de 80 países.",
+    "heading": "Clientes y mercados",
+    "subtitle": "Atendemos a industrias farmacéuticas, de salud y mercados regulados en todo el mundo.",
+    "presence": "Presencia en más de 80 países."
+  },
+  "contact": {
+    "title": "Contacto",
+    "metaDescription": "Contacte a OFAG. Estrada da Aldeinha, 421 — Barueri — SP, Brasil.",
+    "heading": "Contacto",
+    "subtitle": "Estamos a su disposición para atender su demanda.",
+    "form": {
+      "name": "Nombre",
+      "email": "Correo electrónico",
+      "company": "Empresa",
+      "message": "Mensaje",
+      "send": "Enviar"
+    }
+  },
+  "quote": {
+    "title": "Presupuesto",
+    "metaDescription": "Solicite un presupuesto. OFAG — impresión técnica para industrias reguladas.",
+    "heading": "Solicitar presupuesto",
+    "subtitle": "Describa su necesidad y le responderemos en breve.",
+    "form": {
+      "name": "Nombre",
+      "email": "Correo electrónico",
+      "company": "Empresa",
+      "product": "Producto / tipo de impresión",
+      "message": "Detalles de la solicitud",
+      "send": "Enviar solicitud"
+    }
+  }
+}
