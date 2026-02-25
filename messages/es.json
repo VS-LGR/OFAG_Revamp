@@ -99,17 +99,24 @@
   },
   "certifications": {
     "title": "Certificaciones",
-    "metaDescription": "Certificaciones OFAG: ISO 9000, GMP y compromiso con calidad y regulación.",
+    "metaDescription": "Certificaciones OFAG: ISO 9001, FSC, Dun & Bradstreet y GMP. Compromiso con calidad y regulación.",
     "heading": "Certificaciones",
     "subtitle": "Compromiso con la calidad y el cumplimiento normativo.",
-    "iso": { "title": "ISO 9000", "desc": "Sistema de gestión de la calidad certificado." },
-    "gmp": { "title": "Buenas Prácticas de fabricación (GMP)", "desc": "Procesos alineados con las Good Manufacturing Practices." }
+    "iso9001": { "title": "ISO 9001", "desc": "Sistema de gestión de la calidad certificado." },
+    "gmp": { "title": "Buenas Prácticas de fabricación (GMP)", "desc": "Procesos alineados con las Good Manufacturing Practices." },
+    "fsc": { "title": "FSC", "desc": "Certificación de cadena de custodia para materiales de origen forestal." },
+    "dunBradstreet": { "title": "Dun & Bradstreet", "desc": "Acreditación y evaluación empresarial." },
+    "documentsSection": "Documentos de certificados",
+    "viewCertificate": "Ver certificado",
+    "fscPage1": "FSC — Página 1",
+    "fscPage2": "FSC — Página 2"
   },
   "clients": {
     "title": "Clientes",
     "metaDescription": "OFAG atiende a industrias farmacéuticas y reguladas en más de 80 países.",
     "heading": "Clientes y mercados",
     "subtitle": "Atendemos a industrias farmacéuticas, de salud y mercados regulados en todo el mundo.",
+    "knowOurClients": "Conozca nuestros clientes",
     "presence": "Presencia en más de 80 países."
   },
   "contact": {
