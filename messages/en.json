@@ -117,7 +117,34 @@
     "heading": "Clients and markets",
     "subtitle": "We serve pharmaceutical, healthcare and regulated industries worldwide.",
     "knowOurClients": "Get to know our clients",
-    "presence": "Presence in more than 80 countries."
+    "partnersTag": "Partners in regulated markets",
+    "partnersSubline": "Pharma and healthcare leaders who trust OFAG for technical printing and compliance.",
+    "presence": "Presence in more than 80 countries.",
+    "reviewsTitle": "Client reviews",
+    "reviewsSubtitle": "What our clients say about partnering with OFAG.",
+    "reviewLabel": {
+      "company": "Company / Contact",
+      "service": "Service"
+    },
+    "reviewCarouselPrev": "Previous review",
+    "reviewCarouselNext": "Next review",
+    "reviews": [
+      {
+        "comment": "Long-standing partnership with excellence in quality and on-time delivery. OFAG is a benchmark in technical printing for our segment.",
+        "companyResponsible": "Pharmaceutical Industry — Supply Chain Director",
+        "service": "Leaflet and packaging printing"
+      },
+      {
+        "comment": "Professionalism and traceability in every delivery. We recommend them for projects requiring regulatory compliance.",
+        "companyResponsible": "National Laboratory — Quality Management",
+        "service": "Labels and technical materials"
+      },
+      {
+        "comment": "Responsive service and dedicated technical support. The OFAG team understands the needs of the pharmaceutical market.",
+        "companyResponsible": "Multinational — Procurement Coordination",
+        "service": "Offset and flexography"
+      }
+    ]
   },
   "contact": {
     "title": "Contact",

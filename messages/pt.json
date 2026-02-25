@@ -117,7 +117,34 @@
     "heading": "Clientes e mercados",
     "subtitle": "Atendemos indústrias farmacêuticas, de saúde e mercados regulados em todo o mundo.",
     "knowOurClients": "Conheça nossos clientes",
-    "presence": "Presença em mais de 80 países."
+    "partnersTag": "Parceiros em mercados regulados",
+    "partnersSubline": "Líderes em farmacêutica e saúde que confiam na OFAG para impressão técnica e conformidade.",
+    "presence": "Presença em mais de 80 países.",
+    "reviewsTitle": "Avaliações dos clientes",
+    "reviewsSubtitle": "O que nossos clientes dizem sobre a parceria com a OFAG.",
+    "reviewLabel": {
+      "company": "Empresa / Responsável",
+      "service": "Serviço"
+    },
+    "reviewCarouselPrev": "Avaliação anterior",
+    "reviewCarouselNext": "Próxima avaliação",
+    "reviews": [
+      {
+        "comment": "Parceria de longa data com excelência em qualidade e cumprimento de prazos. A OFAG é referência em impressão técnica para nosso segmento.",
+        "companyResponsible": "Indústria Farmacêutica — Diretoria de Supply Chain",
+        "service": "Impressão de bulas e embalagens"
+      },
+      {
+        "comment": "Profissionalismo e rastreabilidade em todas as entregas. Recomendamos para projetos que exigem conformidade regulatória.",
+        "companyResponsible": "Laboratório Nacional — Gerência de Qualidade",
+        "service": "Rótulos e materiais técnicos"
+      },
+      {
+        "comment": "Atendimento ágil e suporte técnico dedicado. A equipe OFAG entende as necessidades do mercado farmacêutico.",
+        "companyResponsible": "Multinacional — Coordenação de Compras",
+        "service": "Offset e flexografia"
+      }
+    ]
   },
   "contact": {
     "title": "Contato",
