@@ -11,7 +11,7 @@ export default function Hero() {
       {/* Fundo com imagem da empresa + camadas de opacidade */}
       <div className="absolute inset-0">
         <Image
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK0OP-puyr8KIn2h56A8H5MBvuMxvs0tSDvg&s"
+          src="https://lh3.googleusercontent.com/gps-cs-s/AHVAwerBO4mDAlc7ht-Vs9B5IsIXUBEZmjZrV3i5pfbEHrf8p8LNPqousHsshzpzAWPRVEEftrExcdUa28n1l6dYRxSfXdgqJ3nRKdTd-Uf1xnwkggYWRe4AROQxjA9tiBtHltNQA2Uw=s1360-w1360-h1020-rw"
           alt="Fachada da OFAG"
           fill
           priority

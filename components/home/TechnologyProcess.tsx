@@ -18,13 +18,8 @@ export default function TechnologyProcess() {
         <p className="mt-3 text-neutral-700">{t("subtitle")}</p>
       </div>
       <div className="relative mx-auto mt-14 max-w-5xl">
-        {/* Linha conectora (desktop) */}
-        <div
-          className="absolute left-1/2 top-7 hidden h-[calc(100%-3.5rem)] w-px -translate-x-1/2 bg-gradient-to-b from-secondary/40 via-secondary/20 to-transparent lg:block"
-          aria-hidden
-        />
         <div className="grid gap-10 lg:grid-cols-[minmax(0,1.1fr)_minmax(0,0.9fr)] lg:items-start">
-          <ol className="grid gap-10 md:grid-cols-2 lg:grid-cols-2">
+          <ol className="grid gap-10 md:grid-cols-2 lg:grid-cols-2 lg:border-l lg:border-secondary/20 lg:pl-8">
             {([1, 2, 3, 4] as const).map((step) => {
               const Icon = icons[step - 1];
               return (
