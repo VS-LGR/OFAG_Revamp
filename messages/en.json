@@ -22,7 +22,10 @@
       "email": "vendas@ofag.com.br"
     },
     "footer": {
-      "qualityNote": "Committed to quality and regulatory compliance."
+      "qualityNote": "Committed to quality and regulatory compliance.",
+      "navigation": "Navigation",
+      "contact": "Contact",
+      "copyright": "Osvaldo, Fernandes S.A. Artes Gráficas"
     }
   },
   "home": {
