@@ -89,13 +89,35 @@
   },
   "services": {
     "title": "Servicios",
-    "metaDescription": "Impresión de prospectos, etiquetas, offset y flexografía para industrias reguladas. OFAG.",
-    "heading": "Nuestros servicios",
-    "subtitle": "Especialistas en la impresión de prospectos y envases farmacéuticos.",
-    "labels": { "title": "Impresión de etiquetas y adhesivos", "desc": "Soluciones en etiquetas y adhesivos para envases primarios y secundarios." },
-    "leaflets": { "title": "Impresión de prospectos", "desc": "Prospectos en conformidad con requisitos regulatorios y de legibilidad." },
-    "offset": { "title": "Impresión offset", "desc": "Impresión offset para envases y materiales gráficos técnicos." },
-    "flexo": { "title": "Impresión en flexografía", "desc": "Flexografía para etiquetas y envases de alto rendimiento." }
+    "metaDescription": "Prospectos y etiquetas para farmacéutico, veterinario, fitosanitario y agro. Impresión técnica, área segregada e inspección electrónica. OFAG.",
+    "heroLine": "Prospectos y etiquetas para los segmentos farmacéutico, veterinario, fitosanitario y agro.",
+    "heading": "Nuestros servicios y productos",
+    "subtitle": "Para OFAG, calidad es cumplir íntegramente los compromisos asumidos con sus clientes, fabricando y mejorando sus productos — Etiquetas y Prospectos — siempre dentro de procesos equilibrados, armoniosos y seguros.",
+    "introValues": "Respetar y valorar a todos los colaboradores y socios, haciéndoles conscientes de que trabajamos para empresas que invierten en investigación y cuidan la salud y la vida de las personas, en definitiva, de cada uno de nosotros.",
+    "leaflets": {
+      "title": "Prospectos",
+      "desc": "Prospectos en conformidad con requisitos regulatorios y de legibilidad.",
+      "items": ["Prospectos plegados", "Prospectos abiertos", "Prospectos encolados", "Prospectos paginados", "Booklet"]
+    },
+    "labels": {
+      "title": "Etiquetas y estructuras",
+      "desc": "Soluciones en etiquetas y adhesivos para envases primarios y secundarios.",
+      "items": ["Etiquetas autoadhesivas", "Láminas de seguridad", "Impresión en estructuras diversas"]
+    },
+    "production": {
+      "title": "Área de producción",
+      "desc": "Área de producción segregada y climatizada."
+    },
+    "inspection": {
+      "title": "Inspección electrónica",
+      "desc": "Inspección electrónica para control de calidad."
+    },
+    "qualityRef": {
+      "title": "Referencia en calidad",
+      "p1": "OFAG tiene como referencia de calidad su cartera de clientes multinacionales y laboratorios líderes brasileños (vea nuestros clientes), que realizan periódicamente auditorías en nuestras instalaciones para colaborar con nuestros procesos y productos.",
+      "p2": "OFAG garantiza el suministro de sus productos mediante certificado, con base en resultados de análisis y muestreos predefinidos con el área técnica de cada cliente. Todo ello, respaldado por Buenas Prácticas de fabricación (G.M.P.) y Certificación ISO 9000 / FSC."
+    },
+    "viewOurClients": "Ver nuestros clientes"
   },
   "certifications": {
     "title": "Certificaciones",

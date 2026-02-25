@@ -89,13 +89,35 @@
   },
   "services": {
     "title": "Services",
-    "metaDescription": "Printing of leaflets, labels, offset and flexography for regulated industries. OFAG.",
-    "heading": "Our services",
-    "subtitle": "Specialists in printing leaflets and pharmaceutical packaging.",
-    "labels": { "title": "Label and adhesive printing", "desc": "Solutions in labels and adhesives for primary and secondary packaging." },
-    "leaflets": { "title": "Leaflet printing", "desc": "Leaflets in compliance with regulatory and readability requirements." },
-    "offset": { "title": "Offset printing", "desc": "Offset printing for packaging and technical graphic materials." },
-    "flexo": { "title": "Flexographic printing", "desc": "Flexography for labels and packaging with high performance." }
+    "metaDescription": "Leaflets and labels for pharmaceutical, veterinary, phytosanitary and agro segments. Technical printing, segregated production area and electronic inspection. OFAG.",
+    "heroLine": "Leaflets and labels for the pharmaceutical, veterinary, phytosanitary and agro segments.",
+    "heading": "Our services and products",
+    "subtitle": "Quality for OFAG means fully meeting the commitments made with its clients, manufacturing and improving its products — Labels and Leaflets — always within balanced, harmonious and safe processes.",
+    "introValues": "To respect and value all employees and partners, making them aware that we work for companies that invest in research and care for human health and life — in short, for each of us.",
+    "leaflets": {
+      "title": "Leaflets",
+      "desc": "Leaflets in compliance with regulatory and readability requirements.",
+      "items": ["Folded leaflets", "Open leaflets", "Glued leaflets", "Paginated leaflets", "Booklet"]
+    },
+    "labels": {
+      "title": "Labels and structures",
+      "desc": "Solutions in labels and adhesives for primary and secondary packaging.",
+      "items": ["Self-adhesive labels", "Security seals", "Printing on various structures"]
+    },
+    "production": {
+      "title": "Production area",
+      "desc": "Segregated and climate-controlled production area."
+    },
+    "inspection": {
+      "title": "Electronic inspection",
+      "desc": "Electronic inspection for quality control."
+    },
+    "qualityRef": {
+      "title": "Quality reference",
+      "p1": "OFAG’s quality reference is its portfolio of multinational clients and leading Brazilian laboratories (see our clients), which periodically conduct audits at our facilities to support our processes and products.",
+      "p2": "OFAG guarantees the supply of its products through certification, based on analysis results and sampling predefined with each client’s technical team. All of this is supported by Good Manufacturing Practices (G.M.P.) and ISO 9000 / FSC Certification."
+    },
+    "viewOurClients": "View our clients"
   },
   "certifications": {
     "title": "Certifications",

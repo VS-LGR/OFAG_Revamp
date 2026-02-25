@@ -89,13 +89,35 @@
   },
   "services": {
     "title": "Serviços",
-    "metaDescription": "Impressão de bulas, rótulos, offset e flexografia para indústrias reguladas. OFAG.",
-    "heading": "Nossos serviços",
-    "subtitle": "Especialistas na impressão de bulas e embalagens farmacêuticas.",
-    "labels": { "title": "Impressão de rótulos e adesivos", "desc": "Soluções em rótulos e adesivos para embalagens primárias e secundárias." },
-    "leaflets": { "title": "Impressão de bulas", "desc": "Bulas em conformidade com requisitos regulatórios e de legibilidade." },
-    "offset": { "title": "Impressão offset", "desc": "Impressão offset para embalagens e materiais gráficos técnicos." },
-    "flexo": { "title": "Impressão em flexografia", "desc": "Flexografia para rótulos e embalagens em alta performance." }
+    "metaDescription": "Bulas e rótulos para farmacêutico, veterinário, fitossanitário e agro. Impressão técnica, área segregada e inspeção eletrônica. OFAG.",
+    "heroLine": "Bulas e rótulos para os segmentos farmacêutico, veterinário, fitossanitário e agro.",
+    "heading": "Nossos serviços e produtos",
+    "subtitle": "Qualidade para a OFAG é cumprir na íntegra os compromissos assumidos com seus clientes, fabricando e aprimorando seus produtos — Rótulos e Bulas — sempre dentro de processos equilibrados, harmoniosos e seguros.",
+    "introValues": "Respeitar e valorizar todos os colaboradores e parceiros, tornando-os conscientes de que trabalhamos para empresas que investem em pesquisas, cuidam da saúde e da vida de seres humanos, em suma, de cada um de nós.",
+    "leaflets": {
+      "title": "Bulas",
+      "desc": "Bulas em conformidade com requisitos regulatórios e de legibilidade.",
+      "items": ["Bulas dobradas", "Bulas abertas", "Bulas coladas", "Bulas paginadas", "Booklet"]
+    },
+    "labels": {
+      "title": "Rótulos e estruturas",
+      "desc": "Soluções em rótulos e adesivos para embalagens primárias e secundárias.",
+      "items": ["Rótulos autoadesivos", "Lacres de segurança", "Impressões em estruturas diversas"]
+    },
+    "production": {
+      "title": "Área de produção",
+      "desc": "Área de produção segregada e climatizada."
+    },
+    "inspection": {
+      "title": "Inspeção eletrônica",
+      "desc": "Inspeção eletrônica para controle de qualidade."
+    },
+    "qualityRef": {
+      "title": "Referência em qualidade",
+      "p1": "A OFAG tem como referência de qualidade sua carteira de clientes multinacionais e laboratórios de ponta brasileiros (veja nossos clientes), que periodicamente realizam auditorias em nossas instalações, a fim de colaborar com nossos processos e produtos.",
+      "p2": "A OFAG garante o fornecimento dos seus produtos através de certificado, com base em resultados de análises e amostragens pré-definidas com a área técnica de cada cliente. Tudo isso, amparado em Boas Práticas de fabricação (G.M.P.) e em Certificação ISO 9000 / FSC."
+    },
+    "viewOurClients": "Ver nossos clientes"
   },
   "certifications": {
     "title": "Certificações",
