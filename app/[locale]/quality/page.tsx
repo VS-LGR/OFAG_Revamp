@@ -1,4 +1,5 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
+import Image from "next/image";
 import { Factory, Leaf, ShieldCheck, Workflow } from "lucide-react";
 import Section from "@/components/ui/Section";
 import { getAlternates } from "@/lib/seo";
@@ -59,8 +60,24 @@ export default async function QualityPage({ params }: Props) {
 
   return (
     <>
-      <Section className="border-b border-neutral-200 bg-neutral-50">
-        <div className="mx-auto max-w-4xl text-center">
+      <Section className="relative min-h-[18rem] overflow-hidden border-b border-neutral-200 bg-neutral-100 py-14 md:min-h-[20rem] md:py-16">
+        <div className="absolute inset-0">
+          <div className="relative h-full w-full">
+            <Image
+              src="/images/quality-hero.png"
+              alt=""
+              fill
+              className="object-cover object-center opacity-[0.22]"
+              sizes="100vw"
+              priority
+            />
+          </div>
+          <div
+            className="absolute inset-0 bg-white/75"
+            aria-hidden
+          />
+        </div>
+        <div className="relative z-10 mx-auto max-w-4xl px-4 text-center">
           <p className="text-xs font-semibold uppercase tracking-[0.18em] text-secondary">
             Qualidade • Processos • Sustentabilidade
           </p>
