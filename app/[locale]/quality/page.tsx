@@ -60,9 +60,9 @@ export default async function QualityPage({ params }: Props) {
 
   return (
     <>
-      <Section className="relative min-h-[20rem] overflow-hidden border-b border-neutral-200 py-24 md:min-h-[24rem] md:py-32">
+      <Section className="relative min-h-[20rem] overflow-hidden border-b border-neutral-200 py-24 shadow-[0_24px_80px_-12px_rgba(15,23,42,0.35)] md:min-h-[24rem] md:py-32">
         <div className="absolute inset-0">
-          <div className="relative h-full w-full">
+          <div className="relative h-full w-full shadow-[inset_0_0_80px_20px_rgba(0,0,0,0.15)]">
             <Image
               src="/images/quality-hero.png"
               alt=""
@@ -75,7 +75,7 @@ export default async function QualityPage({ params }: Props) {
           <div className="absolute inset-0 bg-gradient-to-br from-primary/90 via-primary/75 to-secondary/70 mix-blend-multiply" aria-hidden />
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(255,255,255,0.25)_0,transparent_50%)]" aria-hidden />
         </div>
-        <div className="pointer-events-none absolute inset-0 shadow-[inset_0_-60px_120px_rgba(15,23,42,0.8)]" aria-hidden />
+        <div className="pointer-events-none absolute inset-0 shadow-[inset_0_-80px_100px_rgba(15,23,42,0.85),inset_0_2px_40px_rgba(0,0,0,0.12)]" aria-hidden />
 
         <div className="relative z-10">
           <div className="mx-auto max-w-4xl rounded-2xl border border-white/20 bg-white/10 px-6 py-8 text-center shadow-[0_32px_80px_rgba(15,23,42,0.6)] backdrop-blur-md md:px-10 md:py-10">
