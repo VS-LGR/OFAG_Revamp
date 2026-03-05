@@ -88,7 +88,11 @@
     "heading": "Technical Printing Solutions for Regulated Industries",
     "intro": "A Osvaldo, Fernandes S.A. Artes Gráficas (OFAG) está no mercado gráfico há mais de 57 anos e há mais de 40 anos dedica-se exclusivamente à indústria farmacêutica.",
     "presence": "Nossos produtos estão presentes em mais de 80 países.",
-    "differentiation": "Estrutura preparada para atender as necessidades de mercados regulados, com foco em autoridade técnica, confiabilidade industrial e conformidade."
+    "differentiation": "Estrutura preparada para atender as necessidades de mercados regulados, com foco em autoridade técnica, confiabilidade industrial e conformidade.",
+    "introExtended": "Prazer em conhecê-los, somos a OFAG. Realizamos nosso trabalho diariamente para imprimir um futuro melhor para o planeta e para as pessoas. Nossas bulas são produtos sustentáveis e nossos fornecedores compartilham o compromisso com o futuro do planeta.",
+    "whoWeAre": "Somos uma empresa nacional com mais de 60 anos de história que aprendeu, desde a fundação, o valor do trabalho, da união e da persistência. Com visão voltada para o futuro, valorizamos a manutenção da sustentabilidade do planeta como forma de contribuir para as próximas gerações.",
+    "whatWeDo": "Estamos entre as três maiores convertedoras da América Latina. De nossas linhas de produção saem produtos impressos em mais de 85 idiomas diferentes. Usamos tecnologia para que os usuários dos nossos produtos recebam informações fiéis às artes fornecidas pelos clientes.",
+    "history": "A iniciativa de inovar e a coragem de investir no Brasil fazem parte da OFAG desde sua fundação. Nossa história de mais de seis décadas é marcada por cuidado e dedicação em tudo o que nos propomos a fazer."
   },
   "services": {
     "title": "Serviços",
@@ -196,6 +200,80 @@
       "product": "Produto / tipo de impressão",
       "message": "Detalhes da solicitação",
       "send": "Enviar solicitação"
+    }
+  },
+  "quality": {
+    "title": "Qualidade e Processos",
+    "metaDescription": "Conheça a estrutura de qualidade, cadeia de suprimentos sustentável e fluxos de produção da OFAG.",
+    "heroTitle": "Qualidade, processos e sustentabilidade na impressão técnica.",
+    "heroSubtitle": "Da árvore renovável ao produto acabado, cada etapa é estruturada para garantir segurança, rastreabilidade e respeito ao planeta.",
+    "orgChart": {
+      "title": "Organograma da OFAG",
+      "summary": "Uma estrutura industrial com diretoria, qualidade, finanças, comercial e operações trabalhando de forma integrada para atender mercados regulados."
+    },
+    "qualityOrgChart": {
+      "title": "Organograma da Qualidade",
+      "summary": "Equipe dedicada de Garantia e Controle da Qualidade, com liderança específica e times por turno responsáveis por cadastro, inspeções e liberação de produtos."
+    },
+    "supplyChain": {
+      "title": "Nossa cadeia de suprimentos",
+      "intro": "A cadeia de suprimentos da OFAG conecta fontes renováveis e insumos especializados até a indústria farmacêutica, garantindo rastreabilidade em cada etapa.",
+      "steps": [
+        "Árvores de origem renovável fornecem o cavaco de eucalipto que dará origem à celulose.",
+        "Fornecedores de celulose e de papel FSC transformam a matéria-prima em bobinas certificadas.",
+        "Óleos vegetais, pigmentos, resinas e aditivos formam as tintas offset utilizadas na impressão.",
+        "Os insumos chegam à OFAG, onde são convertidos em bulas técnicas para a indústria farmacêutica.",
+        "As bulas seguem para laboratórios e indústrias reguladas, fechando o ciclo com foco em sustentabilidade."
+      ]
+    },
+    "newProductFlow": {
+      "title": "Fluxo de novos produtos",
+      "steps": [
+        "O cliente apresenta a necessidade e as artes iniciais do produto.",
+        "A área de arte e especificação analisa os requisitos técnicos.",
+        "O pedido é recebido, distribuído e cadastrado com os dados do produto.",
+        "A equipe técnica avalia viabilidade, processo e materiais ideais.",
+        "O produto é registrado e liberado para produção dentro do fluxo industrial."
+      ]
+    },
+    "offsetFlow": {
+      "title": "Fluxograma do processo offset",
+      "steps": [
+        "Pré-impressão: preparação de chapas e arquivos para impressão.",
+        "Impressão: aplicação das tintas sobre o papel com controle de registro e cor.",
+        "Corte: folhas impressas são cortadas conforme o formato definido.",
+        "Revisão: verificação de 100% das bulas quanto a falhas de impressão.",
+        "Dobra e acabamento: dobragem, colagem e montagem das bulas para expedição."
+      ]
+    },
+    "inspections": {
+      "title": "Inspeções durante a fabricação",
+      "summary": "Ao longo do processo produtivo, diferentes pontos de controle asseguram que cada bula atenda às especificações técnicas e regulatórias.",
+      "items": [
+        "Inspeção da chapa de impressão e do acerto de máquina.",
+        "Verificação de gramatura, espessura e fidelidade ao conteúdo aprovado.",
+        "Controle de cor e aspecto da bula impressa.",
+        "Conferência de dimensões (altura e largura) das peças cortadas.",
+        "Checagem da quantidade de dobras, sequência de dobragem e número de bulas por maço e por caixa.",
+        "Identificação correta da embalagem antes da expedição."
+      ]
+    },
+    "cleaningRelease": {
+      "title": "Limpeza e liberação de área",
+      "summary": "Cada nova ordem de serviço começa com a garantia de que a área de produção está limpa, organizada e liberada para uso.",
+      "steps": [
+        "Limpeza inicial da área pelo operador responsável.",
+        "Inspeção e liberação pelo time de qualidade.",
+        "Registro da liberação e preparação para a próxima ordem de serviço."
+      ]
+    },
+    "sustainableProducts": {
+      "title": "Produtos sustentáveis",
+      "summary": "Todo o papel descartado pela OFAG é destinado à reciclagem por parceiros especializados, reforçando o compromisso com a economia circular e a redução de resíduos."
+    },
+    "equipment": {
+      "title": "Equipamentos e infraestrutura",
+      "summary": "Parque gráfico com impressoras offset e flexográficas, linhas dedicadas de corte e dobra e áreas segregadas por galpão, garantindo fluxo organizado entre pré-impressão, produção e expedição."
     }
   }
 }

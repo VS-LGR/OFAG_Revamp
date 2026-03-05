@@ -88,7 +88,11 @@
     "heading": "Technical Printing Solutions for Regulated Industries",
     "intro": "Osvaldo, Fernandes S.A. Artes Gráficas (OFAG) has been in the printing market for over 57 years and has been dedicated exclusively to the pharmaceutical industry for over 40 years.",
     "presence": "Our products are present in more than 80 countries.",
-    "differentiation": "Structure ready to meet the needs of regulated markets, with a focus on technical authority, industrial reliability and compliance."
+    "differentiation": "Structure ready to meet the needs of regulated markets, with a focus on technical authority, industrial reliability and compliance.",
+    "introExtended": "Nice to meet you, we are OFAG. We carry out our work every day to help print a better future for the planet and for people. Our leaflets are sustainable products and our suppliers share the same commitment to the future of the planet.",
+    "whoWeAre": "We are a national company with more than 60 years of history that has learned, since its foundation, the value of work, unity and persistence. With a forward-looking vision, we value maintaining the planet\u2019s sustainability as a way of contributing to new generations.",
+    "whatWeDo": "We are among the three largest converters in Latin America. Our production lines deliver printed products in more than 85 different languages. We use technology so that users of our products receive reliable information that reflects the artwork provided by our customers.",
+    "history": "The initiative to innovate and the courage to invest in Brazil have been part of OFAG since its foundation. Our sixty-year history is marked by great care in everything we set out to do."
   },
   "services": {
     "title": "Services",
@@ -196,6 +200,80 @@
       "product": "Product / type of printing",
       "message": "Request details",
       "send": "Submit request"
+    }
+  },
+  "quality": {
+    "title": "Quality & Processes",
+    "metaDescription": "Learn about OFAG\u2019s quality structure, sustainable supply chain and production flows.",
+    "heroTitle": "Quality, processes and sustainability in technical printing.",
+    "heroSubtitle": "From renewable forests to the finished product, every step is designed to guarantee safety, traceability and respect for the planet.",
+    "orgChart": {
+      "title": "OFAG organizational chart",
+      "summary": "An industrial structure with management, quality, finance, commercial and operations working together to serve regulated markets."
+    },
+    "qualityOrgChart": {
+      "title": "Quality organization",
+      "summary": "A dedicated Quality Assurance and Quality Control team, with specific leadership and shift-based teams responsible for registration, inspections and product release."
+    },
+    "supplyChain": {
+      "title": "Our supply chain",
+      "intro": "OFAG\u2019s supply chain connects renewable sources and specialized inputs to the pharmaceutical industry, ensuring traceability at every stage.",
+      "steps": [
+        "Renewable forests provide eucalyptus chips that are transformed into cellulose.",
+        "Cellulose and FSC paper suppliers convert the raw material into certified paper reels.",
+        "Vegetable oils, pigments, resins and additives are combined to form the offset inks used in printing.",
+        "Inputs arrive at OFAG, where they are converted into technical leaflets for the pharmaceutical industry.",
+        "Leaflets are delivered to laboratories and regulated industries, closing the cycle with a focus on sustainability."
+      ]
+    },
+    "newProductFlow": {
+      "title": "New product flow",
+      "steps": [
+        "The customer presents the need and initial artwork for the product.",
+        "The artwork and specification team analyses the technical requirements.",
+        "The order is received, distributed and registered with the product data.",
+        "The technical team evaluates feasibility, process and best-suited materials.",
+        "The product is registered and released for production within the industrial flow."
+      ]
+    },
+    "offsetFlow": {
+      "title": "Offset process flowchart",
+      "steps": [
+        "Prepress: preparation of printing plates and files.",
+        "Printing: application of inks to paper with registration and colour control.",
+        "Cutting: printed sheets are cut according to the defined format.",
+        "Review: 100% of the leaflets are checked for printing failures.",
+        "Folding and finishing: folding, gluing and packing the leaflets for shipment."
+      ]
+    },
+    "inspections": {
+      "title": "Inspections during manufacturing",
+      "summary": "Throughout the production process, different control points ensure that each leaflet meets technical and regulatory specifications.",
+      "items": [
+        "Inspection of the printing plate and press set-up.",
+        "Verification of grammage, thickness and fidelity to the approved content.",
+        "Control of colour and overall appearance of the printed leaflet.",
+        "Checking the dimensions (height and width) of cut pieces.",
+        "Checking number of folds, folding sequence and number of leaflets per bundle and per box.",
+        "Correct identification of packaging before shipment."
+      ]
+    },
+    "cleaningRelease": {
+      "title": "Cleaning and release of area",
+      "summary": "Every new job order begins with ensuring that the production area is clean, organized and released for use.",
+      "steps": [
+        "Initial cleaning of the area by the responsible operator.",
+        "Inspection and release by the quality team.",
+        "Record of the release and preparation for the next job order."
+      ]
+    },
+    "sustainableProducts": {
+      "title": "Sustainable products",
+      "summary": "All paper discarded by OFAG is sent for recycling through specialized partners, reinforcing our commitment to circular economy and waste reduction."
+    },
+    "equipment": {
+      "title": "Equipment and infrastructure",
+      "summary": "Printing park with offset and flexographic presses, dedicated cutting and folding lines and areas separated by warehouse, ensuring an organized flow between prepress, production and shipping."
     }
   }
 }
