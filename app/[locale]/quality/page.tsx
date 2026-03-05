@@ -1,6 +1,6 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import Image from "next/image";
-import { Factory, Leaf, ShieldCheck, Workflow } from "lucide-react";
+import { ClipboardCheck, Factory, Leaf, ShieldCheck, Workflow } from "lucide-react";
 import Section from "@/components/ui/Section";
 import { getAlternates } from "@/lib/seo";
 
@@ -193,20 +193,38 @@ export default async function QualityPage({ params }: Props) {
         </div>
       </Section>
 
-      <Section className="border-t border-neutral-200 bg-neutral-50/60">
+      <Section className="border-t border-neutral-200 bg-gradient-to-b from-neutral-50/80 to-white">
         <div className="mx-auto max-w-4xl">
-          <h2 className="text-2xl font-semibold text-primary">
-            {inspections?.title}
-          </h2>
-          <p className="mt-3 text-neutral-700">{inspections?.summary}</p>
+          <div className="flex flex-wrap items-center gap-3">
+            <span className="flex h-12 w-12 items-center justify-center rounded-2xl bg-primary/10 text-primary shadow-sm">
+              <ClipboardCheck className="h-6 w-6" />
+            </span>
+            <div>
+              <h2 className="text-2xl font-semibold text-primary">
+                {inspections?.title}
+              </h2>
+              <p className="mt-1 text-sm text-neutral-600">{inspections?.summary}</p>
+            </div>
+          </div>
           {Array.isArray(inspections?.items) && (
-            <ul className="mt-5 grid gap-3 text-sm text-neutral-700 md:grid-cols-2">
+            <ul className="mt-8 grid gap-4 text-sm text-neutral-700 md:grid-cols-2">
               {inspections.items.map((item, index) => (
                 <li
                   key={index}
-                  className="rounded-xl border border-neutral-200 bg-white/80 p-3 shadow-sm shadow-neutral-200/70"
+                  className={`flex items-start gap-4 rounded-2xl border p-4 shadow-md transition-shadow hover:shadow-lg ${
+                    index % 2 === 0
+                      ? "border-primary/15 bg-white bg-gradient-to-br from-white to-primary/5 shadow-primary/10"
+                      : "border-secondary/15 bg-white bg-gradient-to-br from-white to-secondary/5 shadow-secondary/10"
+                  }`}
                 >
-                  {item}
+                  <span
+                    className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-full text-xs font-bold text-white shadow-sm ${
+                      index % 2 === 0 ? "bg-primary" : "bg-secondary"
+                    }`}
+                  >
+                    {index + 1}
+                  </span>
+                  <span className="leading-relaxed">{item}</span>
                 </li>
               ))}
             </ul>
