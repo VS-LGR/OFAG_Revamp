@@ -1,4 +1,5 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
+import { Factory, Leaf, ShieldCheck, Workflow } from "lucide-react";
 import Section from "@/components/ui/Section";
 import { getAlternates } from "@/lib/seo";
 
@@ -59,28 +60,43 @@ export default async function QualityPage({ params }: Props) {
   return (
     <>
       <Section className="border-b border-neutral-200 bg-neutral-50">
-        <div className="mx-auto max-w-3xl text-center">
-          <h1 className="text-3xl font-bold text-primary md:text-4xl">
+        <div className="mx-auto max-w-4xl text-center">
+          <p className="text-xs font-semibold uppercase tracking-[0.18em] text-secondary">
+            Qualidade • Processos • Sustentabilidade
+          </p>
+          <h1 className="mt-3 text-3xl font-bold text-primary md:text-4xl">
             {t("heroTitle")}
           </h1>
-          <p className="mt-4 text-neutral-700">{t("heroSubtitle")}</p>
+          <p className="mt-4 text-sm leading-relaxed text-neutral-700 md:text-base">
+            {t("heroSubtitle")}
+          </p>
         </div>
       </Section>
 
       <Section>
         <div className="mx-auto grid max-w-4xl gap-8 md:grid-cols-2">
-          <article className="rounded-2xl border border-neutral-200 bg-white p-6 shadow-sm">
-            <h2 className="text-lg font-semibold text-primary">
+          <article className="rounded-3xl border border-primary/10 bg-gradient-to-br from-white via-neutral-50 to-primary/5 p-6 shadow-md shadow-primary/10">
+            <div className="flex items-center gap-3">
+              <span className="flex h-10 w-10 items-center justify-center rounded-2xl bg-primary/10 text-primary">
+                <Factory className="h-5 w-5" />
+              </span>
+              <h2 className="text-lg font-semibold text-primary">
               {t("orgChart.title")}
-            </h2>
+              </h2>
+            </div>
             <p className="mt-3 text-sm leading-relaxed text-neutral-700">
               {t("orgChart.summary")}
             </p>
           </article>
-          <article className="rounded-2xl border border-neutral-200 bg-white p-6 shadow-sm">
-            <h2 className="text-lg font-semibold text-primary">
+          <article className="rounded-3xl border border-secondary/10 bg-gradient-to-br from-white via-neutral-50 to-secondary/5 p-6 shadow-md shadow-secondary/10">
+            <div className="flex items-center gap-3">
+              <span className="flex h-10 w-10 items-center justify-center rounded-2xl bg-secondary/10 text-secondary">
+                <ShieldCheck className="h-5 w-5" />
+              </span>
+              <h2 className="text-lg font-semibold text-primary">
               {t("qualityOrgChart.title")}
-            </h2>
+              </h2>
+            </div>
             <p className="mt-3 text-sm leading-relaxed text-neutral-700">
               {t("qualityOrgChart.summary")}
             </p>
@@ -95,10 +111,10 @@ export default async function QualityPage({ params }: Props) {
           </h2>
           <p className="mt-3 text-neutral-700">{supplyChain?.intro}</p>
           {Array.isArray(supplyChain?.steps) && supplyChain.steps.length > 0 && (
-            <ol className="mt-6 space-y-3 text-sm text-neutral-700">
+            <ol className="mt-6 space-y-3 border-l border-dashed border-primary/30 pl-4 text-sm text-neutral-700">
               {supplyChain.steps.map((step, index) => (
                 <li key={index} className="flex gap-3">
-                  <span className="mt-0.5 inline-flex h-6 w-6 items-center justify-center rounded-full bg-secondary/10 text-xs font-semibold text-secondary">
+                  <span className="mt-0.5 inline-flex h-7 w-7 items-center justify-center rounded-full bg-secondary text-xs font-semibold text-white shadow-sm shadow-secondary/50">
                     {index + 1}
                   </span>
                   <span>{step}</span>
@@ -111,10 +127,15 @@ export default async function QualityPage({ params }: Props) {
 
       <Section>
         <div className="mx-auto grid max-w-4xl gap-8 md:grid-cols-2">
-          <article className="rounded-2xl border border-neutral-200 bg-white p-6 shadow-sm">
-            <h2 className="text-lg font-semibold text-primary">
+          <article className="rounded-3xl border border-neutral-200 bg-white p-6 shadow-md shadow-neutral-200/80">
+            <div className="flex items-center gap-3">
+              <span className="flex h-10 w-10 items-center justify-center rounded-2xl bg-primary/10 text-primary">
+                <Workflow className="h-5 w-5" />
+              </span>
+              <h2 className="text-lg font-semibold text-primary">
               {newProductFlow?.title}
-            </h2>
+              </h2>
+            </div>
             {Array.isArray(newProductFlow?.steps) && (
               <ol className="mt-4 space-y-2 text-sm text-neutral-700">
                 {newProductFlow.steps.map((step, index) => (
@@ -128,10 +149,15 @@ export default async function QualityPage({ params }: Props) {
               </ol>
             )}
           </article>
-          <article className="rounded-2xl border border-neutral-200 bg-white p-6 shadow-sm">
-            <h2 className="text-lg font-semibold text-primary">
+          <article className="rounded-3xl border border-neutral-200 bg-white p-6 shadow-md shadow-neutral-200/80">
+            <div className="flex items-center gap-3">
+              <span className="flex h-10 w-10 items-center justify-center rounded-2xl bg-secondary/10 text-secondary">
+                <Factory className="h-5 w-5" />
+              </span>
+              <h2 className="text-lg font-semibold text-primary">
               {offsetFlow?.title}
-            </h2>
+              </h2>
+            </div>
             {Array.isArray(offsetFlow?.steps) && (
               <ol className="mt-4 space-y-2 text-sm text-neutral-700">
                 {offsetFlow.steps.map((step, index) => (
@@ -159,7 +185,7 @@ export default async function QualityPage({ params }: Props) {
               {inspections.items.map((item, index) => (
                 <li
                   key={index}
-                  className="rounded-lg border border-neutral-200 bg-white/70 p-3"
+                  className="rounded-xl border border-neutral-200 bg-white/80 p-3 shadow-sm shadow-neutral-200/70"
                 >
                   {item}
                 </li>
@@ -171,10 +197,15 @@ export default async function QualityPage({ params }: Props) {
 
       <Section>
         <div className="mx-auto grid max-w-4xl gap-8 md:grid-cols-2">
-          <article className="rounded-2xl border border-neutral-200 bg-white p-6 shadow-sm">
-            <h2 className="text-lg font-semibold text-primary">
+          <article className="rounded-3xl border border-primary/10 bg-gradient-to-br from-white via-neutral-50 to-primary/5 p-6 shadow-md shadow-primary/10">
+            <div className="flex items-center gap-3">
+              <span className="flex h-10 w-10 items-center justify-center rounded-2xl bg-primary/10 text-primary">
+                <ShieldCheck className="h-5 w-5" />
+              </span>
+              <h2 className="text-lg font-semibold text-primary">
               {cleaningRelease?.title}
-            </h2>
+              </h2>
+            </div>
             <p className="mt-3 text-sm text-neutral-700">
               {cleaningRelease?.summary}
             </p>
@@ -191,10 +222,15 @@ export default async function QualityPage({ params }: Props) {
               </ol>
             )}
           </article>
-          <article className="rounded-2xl border border-neutral-200 bg-white p-6 shadow-sm">
-            <h2 className="text-lg font-semibold text-primary">
+          <article className="rounded-3xl border border-secondary/10 bg-gradient-to-br from-white via-neutral-50 to-secondary/5 p-6 shadow-md shadow-secondary/10">
+            <div className="flex items-center gap-3">
+              <span className="flex h-10 w-10 items-center justify-center rounded-2xl bg-secondary/10 text-secondary">
+                <Leaf className="h-5 w-5" />
+              </span>
+              <h2 className="text-lg font-semibold text-primary">
               {sustainableProducts?.title}
-            </h2>
+              </h2>
+            </div>
             <p className="mt-3 text-sm leading-relaxed text-neutral-700">
               {sustainableProducts?.summary}
             </p>
