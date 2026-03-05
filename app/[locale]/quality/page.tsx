@@ -60,33 +60,35 @@ export default async function QualityPage({ params }: Props) {
 
   return (
     <>
-      <Section className="relative min-h-[18rem] overflow-hidden border-b border-neutral-200 bg-neutral-100 py-14 md:min-h-[20rem] md:py-16">
+      <Section className="relative min-h-[20rem] overflow-hidden border-b border-neutral-200 py-24 md:min-h-[24rem] md:py-32">
         <div className="absolute inset-0">
           <div className="relative h-full w-full">
             <Image
               src="/images/quality-hero.png"
               alt=""
               fill
-              className="object-cover object-center opacity-[0.22]"
+              className="object-cover object-center"
               sizes="100vw"
               priority
             />
           </div>
-          <div
-            className="absolute inset-0 bg-white/75"
-            aria-hidden
-          />
+          <div className="absolute inset-0 bg-gradient-to-br from-primary/90 via-primary/75 to-secondary/70 mix-blend-multiply" aria-hidden />
+          <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(255,255,255,0.25)_0,transparent_50%)]" aria-hidden />
         </div>
-        <div className="relative z-10 mx-auto max-w-4xl px-4 text-center">
-          <p className="text-xs font-semibold uppercase tracking-[0.18em] text-secondary">
-            Qualidade • Processos • Sustentabilidade
-          </p>
-          <h1 className="mt-3 text-3xl font-bold text-primary md:text-4xl">
-            {t("heroTitle")}
-          </h1>
-          <p className="mt-4 text-sm leading-relaxed text-neutral-700 md:text-base">
-            {t("heroSubtitle")}
-          </p>
+        <div className="pointer-events-none absolute inset-0 shadow-[inset_0_-60px_120px_rgba(15,23,42,0.8)]" aria-hidden />
+
+        <div className="relative z-10">
+          <div className="mx-auto max-w-4xl rounded-2xl border border-white/20 bg-white/10 px-6 py-8 text-center shadow-[0_32px_80px_rgba(15,23,42,0.6)] backdrop-blur-md md:px-10 md:py-10">
+            <p className="inline-block rounded-full border border-white/35 bg-white/15 px-4 py-1.5 text-xs font-semibold uppercase tracking-wider text-white/95">
+              Qualidade • Processos • Sustentabilidade
+            </p>
+            <h1 className="mt-4 text-3xl font-bold tracking-tight text-white md:text-4xl">
+              {t("heroTitle")}
+            </h1>
+            <p className="mt-4 text-sm leading-relaxed text-white/90 md:text-base">
+              {t("heroSubtitle")}
+            </p>
+          </div>
         </div>
       </Section>
 
