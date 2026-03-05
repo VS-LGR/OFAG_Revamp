@@ -2,7 +2,7 @@ import { MetadataRoute } from "next";
 import { LOCALES } from "@/lib/constants";
 import { getAbsoluteUrl } from "@/lib/seo";
 
-const PATHS = ["", "about", "services", "certifications", "clients", "contact", "quote"];
+const PATHS = ["", "about", "services", "quality", "certifications", "clients", "contact", "quote"];
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://ofag.com";
